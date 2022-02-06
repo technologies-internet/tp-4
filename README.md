@@ -36,9 +36,9 @@ Il définie un objet, `rectangle`, et une fonction, `surface`. La fonction va ca
           > surface(rectangle);
            200
 
-Complétez l'instruction suivante pour ajouter une méthode à l'objet `rectangle`:
+Complétez l'instruction suivante pour ajouter une méthode, `surface`, à l'objet `rectangle`:
 
-           rectangle.surfce = function(){ .... };
+           rectangle.surface = function(){ .... };
 
 Appart les espaces, les parenthèses, et le point-virgule, vous devriez n'utiliser que: `return`, `this`, et `surface`. 
 Après votre modification, on devrait pouvoir faire:
