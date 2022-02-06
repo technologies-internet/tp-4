@@ -23,3 +23,26 @@
         indexer(["Turing", "Tarski", "Church", "Milner", "Curry","Tarjan"]);
       </script>
     </body>
+
+## Exemple d'une fonction avec `this`.
+
+Soit le programme `javascript` suivant:
+
+         var rectangle = {hauteur: 10, largeur:20};
+         var surface = rect => rect.hauteur * rect.largeur;
+
+Il définie un objet, `rectangle`, et une fonction, `surface`. La fonction va calculer la surface  du rectangle:
+
+          > surface(rectangle);
+           200
+
+Complétez l'instruction suivante pour ajouter une méthode à l'objet `rectangle`:
+
+           rectangle.surfce = function(){ .... };
+
+Appart les espaces, les parenthèses, et le point-virgule, vous devriez n'utiliser que: `return`, `this`, et `surface`. 
+Après votre modification, on devrait pouvoir faire:
+
+          > rectangle.surface();
+          200
+  
